@@ -1,0 +1,17 @@
+.tiles-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: auto auto auto;
+  column-gap: 20px;
+  row-gap: 25px;
+  grid-gap: 5px;
+  margin-top: 50px;
+}
+
+.tiles-container>div {
+  border: 1px solid salmon;
+}
+
+.favourite-tile {
+  background-color: aquamarine;
+}
